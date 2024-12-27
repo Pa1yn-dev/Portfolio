@@ -23,7 +23,7 @@
 
     .container {
       font-family: 'Source Code Pro Variable', monospace;
-      max-width: 1200px;
+      max-width: 70%;
       margin: 0 auto;
       padding: 110px;
       color: white;
@@ -133,11 +133,13 @@
     }
 
     @media (max-width: 768px) {
-      .container {
-        grid-template-columns: 1fr;
-      }
       .portfolio {
         grid-template-columns: 1fr;
+      }
+      .container {
+        padding: 10px;  
+        max-width: 100%; 
+        grid-template-columns: 1fr; 
       } 
     }
 </style>
