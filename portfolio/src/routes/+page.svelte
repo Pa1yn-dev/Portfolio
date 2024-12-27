@@ -150,7 +150,7 @@
         <h2>About Me</h2>
         <div class="userinfo">
             <img class="profilepicture" src={profilepicture} alt="Profile Picture">
-            <p class="name">Sarah Hamilton</p>
+            <p class="name">Peter Hamilton</p>
             <p class="about">Computer Science student
               at UOL | Self-taught
               programmer with
