@@ -36,7 +36,6 @@
         position: relative;
         max-width: 100%;
         margin: 0; 
-        padding: 0; 
         padding: 6vh 0px 0px 0px;
     }
     main {
@@ -48,6 +47,9 @@
     .body {
         background-color: #c4c4c4;
         background: repeating-linear-gradient( -45deg, #000000, #000000 19.5px, #c4c4c4 19.5px, #c4c4c4 97.5px );
+    }
+    .page {
+        padding: 8vh 0px 0px 0px;
     }
     }
 </style>
