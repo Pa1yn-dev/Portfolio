@@ -23,7 +23,7 @@
         text-align: center;
         padding: 40px;
         color: white;
-        height: 475px;
+        height: auto;
     }
 
     .header h1 {
@@ -130,9 +130,6 @@
     }
 
     @media (max-width: 768px) {
-        .header {
-        height: 400px;
-    }
 
     .header h1 {
         padding: 10px;

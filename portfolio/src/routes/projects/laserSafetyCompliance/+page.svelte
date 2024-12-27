@@ -5,6 +5,8 @@
     import presentation from '$lib/assets/projects/laserSafetyCompliance/stfcPresentation.pdf';
     import github from '$lib/assets/icons/github.svg';
 
+    import activityDiagram from '$lib/assets/projects/laserSafetyCompliance/activityDiagram.png';
+
 </script>
 
 <style>
@@ -21,7 +23,7 @@
         text-align: center;
         padding: 40px;
         color: white;
-        height: 475px;
+        height: auto;
     }
 
     .header h1 {
@@ -119,6 +121,16 @@
 
     }
 
+    .content-row img {
+        display: block;
+        margin: 0 auto; 
+        max-width: 90%; 
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.8); 
+        border-radius: 5px; 
+        padding: 5px; 
+    }
+
     .separator {
         content: "";
         display: block;
@@ -130,9 +142,6 @@
     }
 
     @media (max-width: 768px) {
-        .header {
-        height: 400px;
-    }
 
     .header h1 {
         padding: 10px;
@@ -188,4 +197,10 @@
             <iframe src="{presentation}" />
         </div>
 </div>
+<div class="content-row">
+    <h1>System activity diagram</h1>
+    <p style="text-align: center;"> Enclosed below is the system activity diagram, visually illustrating the workflow of the LASER Safety Compliance Service:</p>
+    <div class="separator"></div>
+        <img src="{activityDiagram}"/>
+    </div>
 </div>
