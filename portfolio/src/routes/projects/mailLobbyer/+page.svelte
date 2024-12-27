@@ -3,6 +3,9 @@
     import '@fontsource/gugi';
 
     import presentation from '$lib/assets/projects/laserSafetyCompliance/stfcPresentation.pdf';
+    import github from '$lib/assets/icons/github.svg';
+
+
 
 </script>
 
@@ -41,29 +44,26 @@
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     }
 
+    
     .buttons {
         display: flex;
         justify-content: center;
-        padding: 20px;
-        margin: 20px auto;
+        padding: 10px;
+        margin: 10px auto;
     }
 
-    .button {
-        padding: 10px 20px;
-        font-size: 2vh;
-        font-family: 'Exo 2 Variable';
-        margin: 0 10px;
-        background-color: #111111;
+    .buttons img {
+        filter: invert(1);
+        height: 10vh;
         color: #ffffff;
         border: none;
-        border-radius: 5px;
         transition: all 0.3s ease;
         cursor: pointer;
     }
 
-    .button:hover {
-        filter: invert(1);
-        transform: scale(1.05);
+    .buttons img:hover {
+        filter: invert(0);
+        transform: scale(1.1);
     }
 
     .content-row {
@@ -166,6 +166,11 @@
 <h1>MailLobbyer</h1>
 <h2>Jul 2023 - Aug 2024 | C#/HTML/CSS/JAVASCRIPT/RAZOR/ASP.NET
     CORE/ELECTRON.NET · GitHub - Open source </h2>
+    <div class="buttons">
+        <a href="https://github.com/Pa1yn-dev/MailLobbyer">
+            <img src="{github}"/>
+        </a>
+    </div>
 </div>
 <div class="content-row">
     <h1>Project overview</h1>

@@ -5,6 +5,8 @@
     import gdd from '$lib/assets/projects/ID/ID-GDD.pdf';
     import gif from '$lib/assets/projects/ID/1.gif'
 
+    
+
 </script>
 
 <style>
@@ -85,6 +87,31 @@
         padding: 20px;
         margin: 10px auto;
         text-align: center;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 2vh;
+        font-family: 'Exo 2 Variable';
+        margin: 0 10px;
+        background-color: #111111;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        filter: invert(1);
+        transform: scale(1.05);
     }
 
     .content-row img {
