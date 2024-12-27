@@ -5,6 +5,7 @@
 
     import email from '$lib/assets/icons/email.svg';
     import linkedin from '$lib/assets/icons/linkedin.svg';
+    import github from '$lib/assets/icons/github.svg';
 
     const currentYear = new Date().getFullYear();
 </script>
@@ -87,7 +88,8 @@
 <div class="footer">
     <div class="footer-icons">
         <a href="https://www.linkedin.com/in/phamilton360"><img src={linkedin} alt="LinkedIn"></a>
-        <a href="mailto:laser@liverpool.ac.uk"><img src={email} alt="Email"></a>
+        <a href="https://github.com/Pa1yn-dev"><img src={github} alt="GitHub"></a>
+        <a href="mailto:peterhamilton522@gmail.com"><img src={email} alt="Email"></a>
     </div>
 
     <p>&copy; Peter Hamilton {currentYear}</p>

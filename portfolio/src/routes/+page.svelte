@@ -3,7 +3,7 @@
     import '@fontsource-variable/source-code-pro';
     import '@fontsource/gugi';
 
-    import profilepicture from '$lib/assets/icons/email.svg';
+    import profilepicture from '$lib/assets/profile.jpg';
     import netrmsilogo from '$lib/assets/netrmsi.png'
     import infecteddepthslogo from '$lib/assets/infecteddepths.png'
     import mail from '$lib/assets/mail.png'
@@ -211,19 +211,25 @@
             </a>
             </div>
             <div class="item">
+            <a href="/projects/ID" rel="prefetch">
             <img src="{infecteddepthslogo}" alt="Infected Depths Icon">
             <h3>Infected Depths</h3>
             <p>A work in progess top-down 2D rogue-like shooter built in the Godot engine.</p>
+            </a>
             </div>
             <div class="item">
+            <a href="/projects/laserSafetyCompliance" rel="prefetch">
             <img src="{laser}" alt="LASER Icon">
             <h3>LASER Safety Compliance Service</h3>
             <p>A safety compliance program that monitors LASER's lab space.</p>
+            </a> 
             </div>
             <div class="item">
+            <a href="https://laseruol.space/">
             <img src="{laser}" alt="LASER Icon">
             <h3>LASER Website</h3>
             <p>A website built with SvelteKit.</p>
+            </a>
             </div>
             <div class="item">
             <img src={netrmsilogo} alt="NET-RMSI LOGO">
