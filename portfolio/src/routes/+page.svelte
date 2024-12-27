@@ -3,7 +3,7 @@
     import '@fontsource-variable/source-code-pro';
     import '@fontsource/gugi';
 
-    import profilepicture from '$lib/assets/profile0.jpg';
+    import profilepicture from '$lib/assets/profile.jpg';
     import netrmsilogo from '$lib/assets/netrmsi.png'
     import infecteddepthslogo from '$lib/assets/infecteddepths.png'
     import mail from '$lib/assets/mail.png'
