@@ -154,7 +154,7 @@
             <p class="about">Computer Science student
               at UOL | Self-taught
               programmer with
-              experience in C, .NET,
+              experience in C#, .NET,
               C/C++, Python, Java, and
               more | Enthusiastic about
               full-stack development,
