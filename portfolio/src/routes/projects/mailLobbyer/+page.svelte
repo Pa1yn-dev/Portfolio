@@ -5,6 +5,9 @@
     import presentation from '$lib/assets/projects/laserSafetyCompliance/stfcPresentation.pdf';
     import github from '$lib/assets/icons/github.svg';
 
+    import showcase0 from '$lib/assets/projects/mailLobbyer/1.png';
+    import showcase1 from '$lib/assets/projects/mailLobbyer/2.png';
+
 
 
 </script>
@@ -23,7 +26,7 @@
         text-align: center;
         padding: 40px;
         color: white;
-        height: 475px;
+        height: auto;
     }
 
     .header h1 {
@@ -132,10 +135,21 @@
         margin: 20px auto;
     }
 
-    @media (max-width: 768px) {
-        .header {
-        height: 400px;
+    .image-container {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center; 
+        gap: 20px; 
+        margin-top: 20px;
     }
+
+    .image-container img {
+        max-width: 45%; 
+        height: auto; 
+        border-radius: 5px;
+    }
+
+    @media (max-width: 768px) {
 
     .header h1 {
         padding: 10px;
@@ -156,6 +170,16 @@
         width: 100%;
         height: 50vh;
     }
+
+    .image-container {
+            flex-direction: column; 
+            align-items: center; 
+        }
+
+        .image-container img {
+            max-width: 80%; 
+            margin-bottom: 20px; 
+        }
     
     
 }
@@ -193,5 +217,31 @@
             (OOP) principles, including encapsulation, inheritance, and abstraction.
         </li>
     </ul>
+</div>
+<div class="content-row">
+    <h1>Project showcase</h1>
+    <p style="text-align: center;"> 
+        MailLobbyer is a client commissioned cross-platform tool for sending batch emails seamlessly through an SMTP server. Utilising CSV files containing recipient details, such as email addresses, full names, and prefixes, to dynamically personalise each email. Custom placeholders can be embedded within the subject line and body of the email in order to tailor the email to its recipient.
+    </p>
+    <p style="text-align: center;"> 
+        The demonstration images below display:
+    </p>
+    <ul>
+        <li>
+            The main page where the user can input the email data, along with selection of a CSV emailing list. In addition the user selects a settings profile which contains the SMTP server information and the sender name and email address.
+        </li>
+        <li>
+            The second stage of the main page allows exclusion of specific entries in the selected CSV emailing list.
+        </li>
+        <li>
+            The settings profile page allows the user to input their sender details along with SMTP connection information such as Hostname and password.
+        </li>
+    </ul>
+    <div class="separator"></div>
+    <div class="image-container">
+        <img src="{showcase0}"/>
+        <img src="{showcase1}"/>
+    </div>
+
 </div>
 </div>

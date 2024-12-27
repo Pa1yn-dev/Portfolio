@@ -3,7 +3,7 @@
     import '@fontsource-variable/source-code-pro';
     import '@fontsource/gugi';
 
-    import profilepicture from '$lib/assets/profile.jpg';
+    import profilepicture from '$lib/assets/profile0.jpg';
     import netrmsilogo from '$lib/assets/netrmsi.png'
     import infecteddepthslogo from '$lib/assets/infecteddepths.png'
     import mail from '$lib/assets/mail.png'
@@ -150,7 +150,7 @@
         <h2>About Me</h2>
         <div class="userinfo">
             <img class="profilepicture" src={profilepicture} alt="Profile Picture">
-            <p class="name">Peter Hamilton</p>
+            <p class="name">Sarah Hamilton</p>
             <p class="about">Computer Science student
               at UOL | Self-taught
               programmer with
