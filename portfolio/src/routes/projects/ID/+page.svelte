@@ -68,7 +68,7 @@
     .pdfcontainer iframe {
         border: none;
         width: 100%;
-        height: 80vh;
+        height: 50vh;
     }
 
     .content-row h1 {
@@ -175,7 +175,7 @@
     </p>
     <div class="separator"></div>
         <div class="pdfcontainer">
-            <iframe src="https://www.youtube.com/embed/Xs_9VT_CFxY" />
+            <iframe src="https://www.youtube.com/embed/NLHq5YPAWys" />
         </div>
     <div class="separator"></div>
     <p style="text-align: center;">
