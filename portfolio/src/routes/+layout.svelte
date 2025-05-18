@@ -43,11 +43,6 @@
     }
 
     @media (max-width: 768px) {
-    
-    .body {
-        background-color: #c4c4c4;
-        background: repeating-linear-gradient( -45deg, #000000, #000000 19.5px, #c4c4c4 19.5px, #c4c4c4 97.5px );
-    }
     .page {
         padding: 8vh 0px 0px 0px;
     }

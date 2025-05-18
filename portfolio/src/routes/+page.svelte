@@ -227,6 +227,13 @@
             </a> 
             </div>
             <div class="item">
+            <a href="/projects/laserIs" rel="prefetch">
+            <img src="{laser}" alt="LASER Icon">
+            <h3>LASERIS</h3>
+            <p>A robust inventory management system built for LASER's lab space.</p>
+            </a> 
+            </div>
+            <div class="item">
             <a href="https://laseruol.space/">
             <img src="{laser}" alt="LASER Icon">
             <h3>LASER Website</h3>
