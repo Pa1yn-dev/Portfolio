@@ -241,9 +241,9 @@
             </a>
             </div>
             <div class="item">
-            <img src={netrmsilogo} alt="NET-RMSI LOGO">
-            <h3>NET-RMSI</h3>
-            <p>An open-source networked remote management server interface.</p>
+            <a href="/projects/comp222" rel="prefetch">
+            <h3>COMP222 Game Project</h3>
+            <p>As part of my degree work we had to build a prototype game.</p>
             </div>
         </div>
         </section>
